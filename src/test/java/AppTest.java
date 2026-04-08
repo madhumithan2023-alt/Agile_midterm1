@@ -1,48 +1,53 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 public class AppTest {
 
     @Test
-    public void testSalaryCalculation() {
-        App payroll = new App(20000, 5000, 3000);
-        double result = payroll.calculateNetSalary();
-        assertEquals(22000, result);
+    void testAddContact() {
+        ContactService service = new ContactService();
+        Contact c = new Contact(1, "Madhu", "madhu@gmail.com", "123");
+
+        assertTrue(service.addContact(c));
+        assertFalse(service.addContact(c)); // duplicate
     }
 
     @Test
-    public void testSalaryComponents() {
-        App payroll = new App(15000, 4000, 2000);
+    void testGetContact() {
+        ContactService service = new ContactService();
+        Contact c = new Contact(1, "Madhu", "madhu@gmail.com", "123");
 
-        assertEquals(15000, payroll.getBasic());
-        assertEquals(4000, payroll.getAllowances());
-        assertEquals(2000, payroll.getDeductions());
+        service.addContact(c);
+
+        assertNotNull(service.getContact(1));
+        assertEquals("Madhu", service.getContact(1).getName());
     }
 
     @Test
-    public void testZeroSalary() {
-        App payroll = new App(0, 0, 0);
-        assertEquals(0, payroll.calculateNetSalary());
+    void testUpdateContact() {
+        ContactService service = new ContactService();
+
+        Contact c1 = new Contact(1, "Madhu", "madhu@gmail.com", "123");
+        service.addContact(c1);
+
+        Contact updated = new Contact(1, "Madesh", "madesh@gmail.com", "999");
+
+        assertTrue(service.updateContact(1, updated));
+        assertEquals("Madesh", service.getContact(1).getName());
     }
 
-   
     @Test
-    public void testNegativeSalary() {
-        App payroll = new App(-10000, 2000, 1000);
+    void testDeleteContact() {
+        ContactService service = new ContactService();
 
-        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            payroll.calculateNetSalary();
-        });
+        Contact c = new Contact(1, "Madhu", "madhu@gmail.com", "123");
+        service.addContact(c);
 
-        assertEquals("Salary components cannot be negative", exception.getMessage());
-    }
-
-   
-    @Test
-    public void testLargeSalary() {
-        App payroll = new App(100000, 50000, 20000);
-        assertEquals(130000, payroll.calculateNetSalary());
+        assertTrue(service.deleteContact(1));
+        assertNull(service.getContact(1));
     }
 }
