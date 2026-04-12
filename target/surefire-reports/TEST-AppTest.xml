@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="AppTest" time="0.093" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="AppTest" time="0.071" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\NARESH AS\Desktop\Agile_midterm\target\test-classes;C:\Users\NARESH AS\Desktop\Agile_midterm\target\classes;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\NARESH AS\Desktop\Agile_CourseProject\target\test-classes;C:\Users\NARESH AS\Desktop\Agile_CourseProject\target\classes;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\NARESH AS\AppData\Local\Temp\surefire6457255760656567710\surefirebooter-20260408182136847_3.jar C:\Users\NARESH AS\AppData\Local\Temp\surefire6457255760656567710 2026-04-08T18-21-36_620-jvmRun1 surefire-20260408182136847_1tmp surefire_0-20260408182136847_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\NARESH AS\AppData\Local\Temp\surefire11792094752943724918\surefirebooter-20260412183745371_3.jar C:\Users\NARESH AS\AppData\Local\Temp\surefire11792094752943724918 2026-04-12T18-37-45_117-jvmRun1 surefire-20260412183745371_1tmp surefire_0-20260412183745371_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\NARESH AS\Desktop\Agile_midterm\target\test-classes;C:\Users\NARESH AS\Desktop\Agile_midterm\target\classes;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\NARESH AS\Desktop\Agile_CourseProject\target\test-classes;C:\Users\NARESH AS\Desktop\Agile_CourseProject\target\classes;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\NARESH AS\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\NARESH AS"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-04-15"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\NARESH AS\Desktop\Agile_midterm"/>
+    <property name="basedir" value="C:\Users\NARESH AS\Desktop\Agile_CourseProject"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\NARESH AS\AppData\Local\Temp\surefire6457255760656567710\surefirebooter-20260408182136847_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NARESH AS\AppData\Local\Temp\surefire11792094752943724918\surefirebooter-20260412183745371_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\NARESH~1\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.7"/>
-    <property name="user.dir" value="C:\Users\NARESH AS\Desktop\Agile_midterm"/>
+    <property name="user.dir" value="C:\Users\NARESH AS\Desktop\Agile_CourseProject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testDeleteContact" classname="AppTest" time="0.044"/>
-  <testcase name="testGetContact" classname="AppTest" time="0.002"/>
-  <testcase name="testUpdateContact" classname="AppTest" time="0.001"/>
-  <testcase name="testAddContact" classname="AppTest" time="0.003"/>
+  <testcase name="testInvalidTime" classname="AppTest" time="0.039"/>
+  <testcase name="testNoConflict" classname="AppTest" time="0.004"/>
+  <testcase name="testConflict" classname="AppTest" time="0.0"/>
+  <testcase name="testExactOverlap" classname="AppTest" time="0.002"/>
 </testsuite>
